@@ -32,3 +32,12 @@
 - static-message.directive.ts: Mensagem personalizada aleatoria gerada para seu cachorro da sorte.
 - NgFor: Diretivas estruturais do angular usada no componente dog-breeds.html.
 - NgIf: Diretivas estruturais do angular usada para garantir que as imagens dos cachorros existem usada no componente luck-dog.html.
+
+### Equipe:
+- Daniella Morais - 01503613 - [@daniiiiella](https://github.com/daniiiiella) 
+- Emanuel Victor - 01518804 - [@EmanuelVictor3](https://github.com/EmanuelVictor3)
+- Iago Pires - 01565829 - [@IagoPiresAlmeida](https://github.com/IagoPiresAlmeida)
+- Nicolly Mayara - 01553411 - [@NicollyXavier](https://github.com/NicollyXavier)
+
+
+
