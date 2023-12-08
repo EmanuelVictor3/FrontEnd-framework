@@ -1,0 +1,10 @@
+<a href="http://localhost:4200/home" class="tome">Voltar</a>
+<div class="container">
+  <h1 class="text-center">Cachorro Aleatório</h1>
+  <div class="d-flex align-items-center justify-content-center ">
+    <div class="col-md-6 ">
+      <img *ngIf="dog && dog.url" [src]="dog.url" class="card-img-top" alt="Dog Image">
+    </div>
+    <h1 class="mx-3"><strong>O cachorro fala: </strong> <span appStaticMessage></span></h1>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.button-style {
+    min-width: 220px;
+    text-align: center;
+  }
+
+  .big-button {
+    width: 40vw;
+    height: 40vh;
+    font-size: 100px;
+    margin-top: 150px;
+    font-weight: bold;
+
+  }

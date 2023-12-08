@@ -1,0 +1,33 @@
+<a href="http://localhost:4200/home" class="tome">Voltar</a>
+<div class="container">
+  <h1 class="text-center">Espécies</h1>
+  <div class="d-flex justify-content-center mt-3">
+    <pagination-controls class="pagination-lg" (pageChange)="onPageChange($event)"></pagination-controls>
+  </div>
+  <div *ngFor="let breed of breeds | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }"
+    class="card mb-3 ">
+    <h1 class="text-center">{{ breed.name | titlecase}}</h1>
+    <div class="d-flex col-md-12 justify-content-around">
+      
+
+      <section class="col-md-2">
+        <h3>Traits</h3>
+        <p><strong>Temperamento:</strong> {{ breed.temperament }}</p>
+        <p><strong>Feito para:</strong> {{ breed.bred_for }}</p>
+        <p><strong>Grupo:</strong> {{ breed.breed_group }}</p>
+      </section>
+
+      <section class="col-md-3">
+        <h3>Mais informação</h3>
+        <p><strong>Expectativa de Vida:</strong> {{ breed.life_span }}</p>
+        <p><strong>Peso:</strong> {{ breed.weight.metric }}</p>
+        <p><strong>Altura:</strong> {{ breed.height.metric }}</p>
+      </section>
+    </div>
+
+
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+    <pagination-controls class="pagination-lg" (pageChange)="onPageChange($event)"></pagination-controls>
+  </div>
+</div>
